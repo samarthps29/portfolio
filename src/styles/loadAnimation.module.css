@@ -1,0 +1,29 @@
+.slideIn {
+	animation: slide 300ms cubic-bezier(0.46, 0.16, 0.36, 0.72) forwards;
+}
+
+.slideInBlur {
+	animation: slideBlur 300ms cubic-bezier(0.46, 0.16, 0.36, 0.72) forwards;
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0%;
+		transform: translateX(-1%);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideBlur {
+	0% {
+		transform: translateX(-1%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}

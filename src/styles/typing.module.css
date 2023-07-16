@@ -1,0 +1,45 @@
+.container .text {
+	position: relative;
+}
+
+.first {
+	color: #c4b0ff;
+}
+
+.first::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(28 25 23);
+	border-left: 2px solid #c4b0ff;
+	animation: animate 4s steps(14) infinite;
+}
+
+.second {
+	color: #337216;
+}
+
+.second::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(224 242 254);
+	border-left: 2px solid #66b38f;
+	animation: animate 4s steps(14) infinite;
+}
+
+@keyframes animate {
+	40%,
+	60% {
+		left: 100%;
+	}
+	100% {
+		left: 0%;
+	}
+}

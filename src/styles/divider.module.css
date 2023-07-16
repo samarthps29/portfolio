@@ -1,0 +1,27 @@
+.spacer {
+	aspect-ratio: 960/500;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.layer1 {
+	background-image: url("../../public/step1.svg");
+}
+
+.layer2 {
+	background-image: url("../../public/step2.svg");
+}
+
+.new {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../../public/name.svg");
+}
+
+.new1 {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../../public/name1.svg");
+}
