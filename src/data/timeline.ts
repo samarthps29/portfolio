@@ -1,7 +1,19 @@
 export const timelineItems = [
 	{
-		year: "This Month",
-		title: "Portfolio Website",
+		year: "2023",
+		title: "Drinker",
+		duration: "3 days",
+		details: "I made a mobile app to stay hydrated.",
+	},
+	{
+		year: "2023",
+		title: "Reflections",
+		duration: "2 Months",
+		details: "I built a personalized notes taking web app.",
+	},
+	{
+		year: "2022",
+		title: "Portfolio",
 		duration: "1 day",
 		details: "I built my portfolio website",
 	},

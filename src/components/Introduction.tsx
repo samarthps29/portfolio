@@ -44,9 +44,7 @@ const Introduction = ({ theme }: { theme: string }) => {
 				</span>
 			</div>
 
-			<p
-				className={`text-xl max-w-[60%] font-semibold ${styles1.slideIn}`}
-			>
+			<p className={`text-xl max-w-[60%] font-medium ${styles1.slideIn}`}>
 				Hi, I am a student at BIT Mesra in Ranchi, specializing in
 				Information Technology. With a genuine ardor for technology, I
 				am consistently motivated to expand my knowledge and skills in

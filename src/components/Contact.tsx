@@ -39,7 +39,7 @@ const Contact = () => {
 						placeholder="Message"
 						rows={10}
 						required
-						className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-stone-800 dark:border-stone-200"
+						className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-stone-800 dark:border-stone-200 resize-none"
 					></textarea>
 					<button
 						type="submit"

@@ -8,7 +8,7 @@ const Portfolio = () => {
 	const [intialIndex, setIntitalIndex] = useState(0);
 	return (
 		<div
-			className={`flex flex-col h-screen justify-center items-center gap-12 ${styles.slideInBlur}`}
+			className={`flex flex-col min-h-screen justify-center items-center gap-12 ${styles.slideInBlur} py-8`}
 			id="portfolio"
 		>
 			<div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
 						className="px-2 py-1 dark:text-white font-semibold border-2 border-stone-900 dark:border-white rounded-md text-sm"
 						onClick={() => {
 							setIntitalIndex((prevIndex) => {
-								if (prevIndex != projectItems.length - 3)
+								if (prevIndex + 3 <= projectItems.length - 1)
 									return prevIndex + 3;
 								else return prevIndex;
 							});
