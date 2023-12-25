@@ -7,21 +7,21 @@
 }
 
 .layer1 {
-	background-image: url("../../public/step1.svg");
+	background-image: url("src/assets/step1.svg");
 }
 
 .layer2 {
-	background-image: url("../../public/step2.svg");
+	background-image: url("src/assets/step2.svg");
 }
 
 .new {
 	width: 100%;
 	background-repeat: no-repeat;
-	background-image: url("../../public/name.svg");
+	background-image: url("src/assets/name.svg");
 }
 
 .new1 {
 	width: 100%;
 	background-repeat: no-repeat;
-	background-image: url("../../public/name1.svg");
+	background-image: url("src/assets/name1.svg");
 }
